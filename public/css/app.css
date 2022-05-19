@@ -1,0 +1,255 @@
+html {
+  font-family: "PT Sans", sans-serif;
+  font-size: 27.94px;
+  line-height: 1.22226199rem;
+}
+
+body {
+  min-width: 340px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.7780959198rem;
+  line-height: 2.6546170365rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5558339298rem;
+  font-weight: normal;
+  margin: 0.7516105941rem 0 0 0;
+}
+
+h3 {
+  font-size: 1.6667859699rem;
+  font-weigth: bold;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  text-align: right;
+  height: 3.0780243379rem;
+  line-height: 2.5053686471rem;
+  border-top: 0.1431639227rem solid #000;
+  border-bottom: 0.1431639227rem solid #000;
+  position: relative;
+}
+h3:before {
+  content: "";
+  display: block;
+  width: 3.2211882606rem;
+  height: 3.2211882606rem;
+  border: 0.1789549034rem solid #ecb730;
+  border-radius: 1.6105941303rem;
+  background: url("/images/icon6.png") no-repeat center center #fff;
+  background-size: contain;
+  position: absolute;
+  left: -3.4001431639rem;
+  top: -0.1431639227rem;
+}
+
+.container {
+  max-width: 68.0028632785rem;
+  margin: 0 auto;
+}
+.container #top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 26.4495347173rem;
+  background-color: #eceded;
+}
+.container #top #top-right {
+  flex: 0 0 24.6241947029rem;
+  background: url("/images/image1.png") no-repeat center center #424243;
+  background-blend-mode: multiply;
+  height: 100%;
+  padding: 7.551896922rem 0 0 8.4824624195rem;
+  color: #fff;
+  font-size: 1.1113099499rem;
+}
+.container #top #top-left {
+  padding: 11.2025769506rem 7.3371510379rem 0 8.3750894775rem;
+  position: relative;
+}
+.container #top .job-titles {
+  margin-bottom: 3.5790980673rem;
+  padding-left: 3.9727988547rem;
+  position: relative;
+}
+.container #top .job-titles:before {
+  content: "";
+  width: 3.5790980673rem;
+  height: 3.5790980673rem;
+  background-color: #ecb730;
+  display: block;
+  position: absolute;
+  border-radius: 2.3979957051rem;
+  left: -3.9727988547rem;
+  top: 0;
+}
+.container #top .job-titles:after {
+  content: "";
+  width: 3.8654259127rem;
+  height: 0.1431639227rem;
+  background-color: #000;
+  position: absolute;
+  left: -2.183249821rem;
+  top: 1.7179670723rem;
+}
+.container #top #avatar {
+  width: 13.242662849rem;
+  height: 13.242662849rem;
+  background-color: #fff;
+  position: absolute;
+  right: -6.6213314245rem;
+  top: 6.6034359341rem;
+  border-radius: 185px;
+  border: 20.5px solid #ecb730;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container #top #avatar img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.container #middle {
+  display: flex;
+  justify-content: space-between;
+}
+.container #middle #middle-left, .container #middle #middle-right {
+  padding-top: 2.2906227631rem;
+}
+.container #middle #middle-left {
+  padding: 0 5.9413027917rem 0 8.3750894775rem;
+}
+.container #middle #middle-right {
+  flex: 0 0 24.6241947029rem;
+  background-color: #eceded;
+  padding: 0 4.9033643522rem 0 1.7895490336rem;
+  padding-bottom: 5.2970651396rem;
+}
+.container .block.education-block h3:before {
+  background-image: url("/images/icon1.png");
+}
+.container .block.experience-block h3:before {
+  background-image: url("/images/icon2.png");
+}
+.container .block.awards-block h3:before {
+  background-image: url("/images/icon3.png");
+}
+.container .block.skills-block h3:before {
+  background-image: url("/images/icon4.png");
+}
+.container .block.languages-block h3:before {
+  background-image: url("/images/icon5.png");
+}
+.container .block.reference-block h3:before {
+  background-image: url("/images/icon6.png");
+}
+.container .stars {
+  background: url("/images/stars-disabled.png") no-repeat left center;
+  background-size: contain;
+  width: 7.0866141732rem;
+  height: 1.0737294202rem;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+}
+.container .stars:before {
+  content: "";
+  background: url("/images/stars-enabled.png") no-repeat -7.5161059413rem center;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: block;
+  width: 7.0866141732rem;
+  height: 1.0737294202rem;
+}
+.container .stars.stars-1:before {
+  background-position: -6.012884753rem;
+}
+.container .stars.stars-2:before {
+  background-position: -4.5096635648rem;
+}
+.container .stars.stars-3:before {
+  background-position: -3.0064423765rem;
+}
+.container .stars.stars-4:before {
+  background-position: -1.5032211883rem;
+}
+.container .stars.stars-5:before {
+  background-position: 0rem;
+}
+
+@media (max-width: 1900px) {
+  html {
+    font-size: calc(27.94px - (1900px - 100vw) * 0.0063717949);
+  }
+}
+@media (max-width: 1800px) {
+  .container #top #top-left {
+    padding-top: 5.3686471009rem;
+  }
+  .container #top #top-left .job-titles {
+    padding-left: 0;
+  }
+  .container #top #top-left .job-titles:before, .container #top #top-left .job-titles:after {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  .container #top {
+    flex-direction: column;
+    height: auto;
+  }
+  .container #top #top-left {
+    text-align: center;
+    padding-left: 1.4316392269rem;
+    padding-right: 1.4316392269rem;
+    padding-top: 1.4316392269rem;
+  }
+  .container #top #top-left .job-titles {
+    margin-bottom: 1.4316392269rem;
+  }
+  .container #top #top-left .job-description {
+    margin-bottom: 1.4316392269rem;
+  }
+  .container #top #top-right {
+    flex: auto;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 1.4316392269rem;
+    padding-left: 1.4316392269rem;
+  }
+  .container #top #avatar {
+    position: static;
+    display: inline-block;
+    margin-bottom: 0.7158196135rem;
+  }
+  .container #middle {
+    flex-direction: column;
+  }
+  .container #middle #middle-left, .container #middle #middle-right {
+    padding-left: 1.4316392269rem;
+    padding-right: 1.4316392269rem;
+    padding-bottom: 1.4316392269rem;
+  }
+
+  h3:before {
+    left: 0;
+    top: 0.107372942rem;
+    width: 2.6843235505rem;
+    height: 2.6843235505rem;
+    background-blend-mode: darken;
+  }
+}
+
