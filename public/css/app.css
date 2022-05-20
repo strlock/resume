@@ -93,6 +93,7 @@ h5 {
 }
 .container #top #top-left .button-container .button-1 {
   margin-bottom: 3.5790980673rem;
+  visibility: hidden;
 }
 .container #top #top-right {
   flex: 0 0 24.5526127416rem;
