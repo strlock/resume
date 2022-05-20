@@ -79,14 +79,14 @@
                     </div>
                 </div>
                 <div id="middle-right">
-                    <div class="block awards-block">
+                    {{--<div class="block awards-block">
                         <div class="block-inner">
                             <h3>AWARDS</h3>
                             <div class="date">2017-2018</div>
                             <h4>ENTER YOUR AWARD NAME</h4>
                             <h5>Organization / Location Here</h5>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="block skills-block">
                         <div class="block-inner">
                             <h3>SKILLS</h3>
