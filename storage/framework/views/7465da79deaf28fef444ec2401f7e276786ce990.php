@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Resume</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,8 +26,8 @@
                         <img src="<?php echo e(asset('/images/me.jpg')); ?>" alt="" />
                     </div>
                     <div class="job-titles">
-                        <h1>IVAN DAVYDENKO</h1>
-                        <h2>PHP Web Developer</h2>
+                        <h1>Ivan Davydenko</h1>
+                        <h2>Junior Software Engineer</h2>
                     </div>
                     <div class="job-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts united states tie ullam bina taliquip sicuitin quiatii texts united states tie ullam islis lines.</div>
                 </div>
@@ -46,47 +46,33 @@
                     <div class="block education-block">
                         <div class="block-inner">
                             <h3>Education</h3>
-                            <div class="date">2014-2015</div>
-                            <h4>ENTER YOUR MASTER’S DEGREE</h4>
-                            <h5>University / Institute Name</h5>
+                            <div class="date">2006-2011</div>
+                            <h4>Master's degree</h4>
+                            <h5>Chernivci National 'Juriy Fedkovyc' University</h5>
                             <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
                         </div>
                     </div>
-                    <div class="block education-block-1">
-                        <div class="block-inner">
-                            <div class="date">2014-2015</div>
-                            <h4>ENTER YOUR MASTER’S DEGREE</h4>
-                            <h5>University / Institute Name</h5>
-                            <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
-                        </div>
-                    </div>
+                    
                     <div class="block experience-block">
                         <div class="block-inner">
                             <h3>Experience</h3>
-                            <div class="date">2019-PRESENT</div>
-                            <h4>ENTER YOUR POSITION</h4>
-                            <h5>Company Name / Institute Name</h5>
+                            <div class="date">2022.01-2022.04</div>
+                            <h4>Junior Backend Developer</h4>
+                            <h5>SapientPro</h5>
                             <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
                         </div>
                     </div>
                     <div class="block experience-block-1">
                         <div class="block-inner">
-                            <div class="date">2017-2019</div>
-                            <h4>ENTER YOUR POSITION</h4>
-                            <h5>Company Name / Institute Name</h5>
+                            <div class="date">2011-2022</div>
+                            <h4>Web Developer</h4>
+                            <h5>MaxxMarketing</h5>
                             <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
                         </div>
                     </div>
                 </div>
                 <div id="middle-right">
-                    <div class="block awards-block">
-                        <div class="block-inner">
-                            <h3>AWARDS</h3>
-                            <div class="date">2017-2018</div>
-                            <h4>ENTER YOUR AWARD NAME</h4>
-                            <h5>Organization / Location Here</h5>
-                        </div>
-                    </div>
+                    
                     <div class="block skills-block">
                         <div class="block-inner">
                             <h3>SKILLS</h3>
@@ -110,6 +96,14 @@
                                 <li>
                                     <span class="title">React</span>
                                     <span class="stars stars-2"></span>
+                                </li>
+                                <li>
+                                    <span class="title">Laravel</span>
+                                    <span class="stars stars-3"></span>
+                                </li>
+                                <li>
+                                    <span class="title">Yii</span>
+                                    <span class="stars stars-1"></span>
                                 </li>
                             </ul>
                         </div>

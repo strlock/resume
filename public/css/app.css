@@ -142,6 +142,7 @@ h5 {
 .container #top #avatar img {
   max-width: 100%;
   max-height: 100%;
+  transform: rotate(-15deg);
 }
 .container #top h2 {
   margin: 0.3937007874rem 0 0 -0.1789549034rem;
@@ -176,6 +177,9 @@ h5 {
 }
 .container #middle .block .block-inner {
   margin-left: -0.107372942rem;
+}
+.container #middle .block.education-block {
+  border-bottom: none;
 }
 .container #middle .block.education-block h3:before {
   background-image: url("/images/icon1.png");
