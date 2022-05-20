@@ -44,88 +44,104 @@
             <div id="middle">
                 <div id="middle-left">
                     <div class="block education-block">
-                        <h3>Education</h3>
-                        <div class="date">2014-2015</div>
-                        <h4>ENTER YOUR MASTER’S DEGREE</h4>
-                        <span>University / Institute Name</span>
-                        <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
+                        <div class="block-inner">
+                            <h3>Education</h3>
+                            <div class="date">2014-2015</div>
+                            <h4>ENTER YOUR MASTER’S DEGREE</h4>
+                            <h5>University / Institute Name</h5>
+                            <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
+                        </div>
                     </div>
-                    <div class="block">
-                        <div class="date">2014-2015</div>
-                        <h4>ENTER YOUR MASTER’S DEGREE</h4>
-                        <span>University / Institute Name</span>
-                        <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
+                    <div class="block education-block-1">
+                        <div class="block-inner">
+                            <div class="date">2014-2015</div>
+                            <h4>ENTER YOUR MASTER’S DEGREE</h4>
+                            <h5>University / Institute Name</h5>
+                            <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
+                        </div>
                     </div>
                     <div class="block experience-block">
-                        <h3>Experience</h3>
-                        <div class="date">2019-PRESENT</div>
-                        <h4>ENTER YOUR POSITION</h4>
-                        <span>Company Name / Institute Name</span>
-                        <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
+                        <div class="block-inner">
+                            <h3>Experience</h3>
+                            <div class="date">2019-PRESENT</div>
+                            <h4>ENTER YOUR POSITION</h4>
+                            <h5>Company Name / Institute Name</h5>
+                            <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
+                        </div>
                     </div>
-                    <div class="block">
-                        <div class="date">2017-2019</div>
-                        <h4>ENTER YOUR POSITION</h4>
-                        <span>Company Name / Institute Name</span>
-                        <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
+                    <div class="block experience-block-1">
+                        <div class="block-inner">
+                            <div class="date">2017-2019</div>
+                            <h4>ENTER YOUR POSITION</h4>
+                            <h5>Company Name / Institute Name</h5>
+                            <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
+                        </div>
                     </div>
                 </div>
                 <div id="middle-right">
                     <div class="block awards-block">
-                        <h3>AWARDS</h3>
-                        <div class="date">2017-2018</div>
-                        <h4>ENTER YOUR AWARD NAME</h4>
-                        <span>Organization / Location Here</span>
+                        <div class="block-inner">
+                            <h3>AWARDS</h3>
+                            <div class="date">2017-2018</div>
+                            <h4>ENTER YOUR AWARD NAME</h4>
+                            <h5>Organization / Location Here</h5>
+                        </div>
                     </div>
                     <div class="block skills-block">
-                        <h3>SKILLS</h3>
-                        <ul class="skills">
-                            <li class="skills-item">
-                                <span>ENTER YOUR SKILL</span>
-                                <span class="stars stars-5"></span>
-                            </li>
-                            <li class="skills-item">
-                                <span>ENTER YOUR SKILL</span>
-                                <span class="stars stars-1"></span>
-                            </li>
-                            <li class="skills-item">
-                                <span>ENTER YOUR SKILL</span>
-                                <span class="stars stars-4"></span>
-                            </li>
-                            <li class="skills-item">
-                                <span>ENTER YOUR SKILL</span>
-                                <span class="stars stars-3"></span>
-                            </li>
-                            <li class="skills-item">
-                                <span>ENTER YOUR SKILL</span>
-                                <span class="stars stars-3"></span>
-                            </li>
-                        </ul>
+                        <div class="block-inner">
+                            <h3>SKILLS</h3>
+                            <ul class="list">
+                                <li>
+                                    <span class="title">PHP</span>
+                                    <span class="stars stars-5"></span>
+                                </li>
+                                <li>
+                                    <span class="title">JavaScript</span>
+                                    <span class="stars stars-4"></span>
+                                </li>
+                                <li>
+                                    <span class="title">HTML</span>
+                                    <span class="stars stars-5"></span>
+                                </li>
+                                <li>
+                                    <span class="title">CSS</span>
+                                    <span class="stars stars-4"></span>
+                                </li>
+                                <li>
+                                    <span class="title">React</span>
+                                    <span class="stars stars-3"></span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="block languages-block">
-                        <h3>LANGUAGES</h3>
-                        <ul class="languages">
-                            <li>
-                                <span>ENTER LANGUAGES</span>
-                                <span class="stars stars-5"></span>
-                            </li>
-                            <li>
-                                <span>ENTER LANGUAGES</span>
-                                <span class="stars stars-4"></span>
-                            </li>
-                            <li>
-                                <span>ENTER LANGUAGES</span>
-                                <span class="stars stars-4"></span>
-                            </li>
-                        </ul>
+                        <div class="block-inner">
+                            <h3>LANGUAGES</h3>
+                            <ul class="list">
+                                <li>
+                                    <span class="title">English</span>
+                                    <span class="stars stars-2"></span>
+                                </li>
+                                <li>
+                                    <span class="title">Ukrainian</span>
+                                    <span class="stars stars-4"></span>
+                                </li>
+                                <li>
+                                    <span class="title">Russian</span>
+                                    <span class="stars stars-3"></span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="block reference-block">
-                        <h3>REFERENCE</h3>
-                        <h4>REFERENCE NAME</h4>
-                        <div class="block-description">
-                            Position Here / Company Name<br/><br/>
-                            PHONE: +023 659 8569<br/>
-                            E-MAIL: info.ad@gmail.com
+                        <div class="block-inner">
+                            <h3>REFERENCE</h3>
+                            <h4>REFERENCE NAME</h4>
+                            <div class="block-description">
+                                Position Here / Company Name<br/><br/>
+                                PHONE: +380997363205<br/>
+                                E-MAIL: strlock@gmail.com
+                            </div>
                         </div>
                     </div>
                 </div>
