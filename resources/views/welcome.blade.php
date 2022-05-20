@@ -111,6 +111,14 @@
                                     <span class="title">React</span>
                                     <span class="stars stars-2"></span>
                                 </li>
+                                <li>
+                                    <span class="title">Laravel</span>
+                                    <span class="stars stars-3"></span>
+                                </li>
+                                <li>
+                                    <span class="title">Yii</span>
+                                    <span class="stars stars-1"></span>
+                                </li>
                             </ul>
                         </div>
                     </div>
