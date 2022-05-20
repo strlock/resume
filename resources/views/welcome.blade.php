@@ -109,7 +109,7 @@
                                 </li>
                                 <li>
                                     <span class="title">React</span>
-                                    <span class="stars stars-3"></span>
+                                    <span class="stars stars-2"></span>
                                 </li>
                             </ul>
                         </div>

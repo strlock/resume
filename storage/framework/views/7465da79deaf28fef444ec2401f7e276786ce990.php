@@ -109,7 +109,7 @@
                                 </li>
                                 <li>
                                     <span class="title">React</span>
-                                    <span class="stars stars-3"></span>
+                                    <span class="stars stars-2"></span>
                                 </li>
                             </ul>
                         </div>
@@ -139,8 +139,8 @@
                             <h4>REFERENCE NAME</h4>
                             <div class="block-description">
                                 Position Here / Company Name<br/><br/>
-                                PHONE: +023 659 8569<br/>
-                                E-MAIL: info.ad@gmail.com
+                                PHONE: +380997363205<br/>
+                                E-MAIL: strlock@gmail.com
                             </div>
                         </div>
                     </div>
