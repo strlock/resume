@@ -27,7 +27,7 @@
                     </div>
                     <div class="job-titles">
                         <h1>IVAN DAVYDENKO</h1>
-                        <h2>PHP Web Developer</h2>
+                        <h2>Junior PHP Developer</h2>
                     </div>
                     <div class="job-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts united states tie ullam bina taliquip sicuitin quiatii texts united states tie ullam islis lines.</div>
                 </div>
