@@ -145,7 +145,7 @@ h5 {
   transform: rotate(-15deg);
 }
 .container #top h2 {
-  margin: 0.3937007874rem 0 0 -0.1789549034rem;
+  margin: 0.3937007874rem 0 0 0.1789549034rem;
   letter-spacing: 0.007em;
 }
 .container #middle {
@@ -251,6 +251,11 @@ h5 {
   width: 10.7653185397rem;
   display: inline-block;
 }
+.container #middle .block .title small {
+  font-weight: normal;
+  font-style: italic;
+  display: block;
+}
 .container #middle .block .stars {
   margin-top: 0.1789549034rem;
 }
@@ -323,6 +328,24 @@ h5 {
   }
 }
 @media (max-width: 1100px) {
+  .container #top #top-left {
+    margin-left: 5.3686471009rem;
+  }
+  .container #top #top-right {
+    flex-basis: 20.7587687903rem;
+  }
+  .container #middle #middle-left {
+    margin-left: 6.4423765211rem;
+  }
+  .container #middle #middle-right {
+    flex-basis: 20.7587687903rem;
+    padding-right: 1.4316392269rem;
+  }
+  .container #middle .block .title {
+    width: 7.1581961346rem;
+  }
+}
+@media (max-width: 900px) {
   .container #top {
     flex-direction: column;
     height: auto;
@@ -367,9 +390,6 @@ h5 {
   .container #middle .block.education-block-1 {
     margin-bottom: 0;
     border-bottom: none;
-  }
-  .container #middle .block .title {
-    width: 7.1581961346rem;
   }
 
   h3:before {

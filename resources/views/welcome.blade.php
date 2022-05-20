@@ -27,7 +27,7 @@
                     </div>
                     <div class="job-titles">
                         <h1>Ivan Davydenko</h1>
-                        <h2>Junior Software Engineer</h2>
+                        <h2>Junior Software Developer</h2>
                     </div>
                     <div class="job-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts united states tie ullam bina taliquip sicuitin quiatii texts united states tie ullam islis lines.</div>
                 </div>
@@ -108,6 +108,18 @@
                                     <span class="stars stars-4"></span>
                                 </li>
                                 <li>
+                                    <span class="title">MySQL</span>
+                                    <span class="stars stars-4"></span>
+                                </li>
+                                <li>
+                                    <span class="title">jQuery</span>
+                                    <span class="stars stars-5"></span>
+                                </li>
+                                <li>
+                                    <span class="title">Bootstrap</span>
+                                    <span class="stars stars-4"></span>
+                                </li>
+                                <li>
                                     <span class="title">React</span>
                                     <span class="stars stars-2"></span>
                                 </li>
@@ -119,6 +131,10 @@
                                     <span class="title">Yii</span>
                                     <span class="stars stars-1"></span>
                                 </li>
+                                <li>
+                                    <span class="title">GIT</span>
+                                    <span class="stars stars-4"></span>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -127,21 +143,21 @@
                             <h3>LANGUAGES</h3>
                             <ul class="list">
                                 <li>
-                                    <span class="title">English</span>
-                                    <span class="stars stars-2"></span>
+                                    <span class="title">English<small>Beginner</small></span>
+                                    <span class="stars stars-1"></span>
                                 </li>
                                 <li>
-                                    <span class="title">Ukrainian</span>
-                                    <span class="stars stars-4"></span>
+                                    <span class="title">Ukrainian<small>native language</small></span>
+                                    <span class="stars stars-5"></span>
                                 </li>
                                 <li>
-                                    <span class="title">Russian</span>
-                                    <span class="stars stars-3"></span>
+                                    <span class="title">Russian<small>free</small></span>
+                                    <span class="stars stars-5"></span>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="block reference-block">
+                    {{--<div class="block reference-block">
                         <div class="block-inner">
                             <h3>REFERENCE</h3>
                             <h4>REFERENCE NAME</h4>
@@ -151,7 +167,7 @@
                                 E-MAIL: strlock@gmail.com
                             </div>
                         </div>
-                    </div>
+                    </div>--}}
                 </div>
             </div>
         </div>

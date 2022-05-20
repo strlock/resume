@@ -154,7 +154,7 @@ h5 {
             }
         }
         h2 {
-            margin: pxrem(11px) 0 0 pxrem(-5px);
+            margin: pxrem(11px) 0 0 pxrem(5px);
             letter-spacing: 0.007em;
         }
     }
@@ -266,6 +266,11 @@ h5 {
             .title {
                 width: pxrem(300.783px);
                 display: inline-block;
+                small {
+                    font-weight: normal;
+                    font-style: italic;
+                    display: block;
+                }
             }
             .stars {
                 margin-top: pxrem(5px);
@@ -362,6 +367,33 @@ h5 {
 @media(max-width: 1100px) {
     .container {
         #top {
+            #top-left {
+                margin-left: pxrem(150px);
+            }
+            #top-right {
+                flex-basis: pxrem(580px);
+            }
+        }
+        #middle {
+            #middle-left {
+                margin-left: pxrem(180px);
+            }
+            #middle-right {
+                flex-basis: pxrem(580px);
+                padding-right: pxrem(40px);
+            }
+            .block{
+                .title {
+                    width: pxrem(200px);
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 900px) {
+    .container {
+        #top {
             flex-direction: column;
             height: auto;
             #top-left {
@@ -405,9 +437,6 @@ h5 {
                 &.education-block-1 {
                     margin-bottom: 0;
                     border-bottom: none;
-                }
-                .title {
-                    width: pxrem(200px);
                 }
             }
         }
