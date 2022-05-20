@@ -81,10 +81,18 @@ h5 {
   background-color: #eceded;
 }
 .container #top #top-left {
-  padding-top: 10.8088761632rem;
+  padding-top: 3.5898353615rem;
   padding-bottom: 0;
   position: relative;
   margin-left: 7.3371510379rem;
+}
+.container #top #top-left .button-container {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+.container #top #top-left .button-container .button-1 {
+  margin-bottom: 3.5790980673rem;
 }
 .container #top #top-right {
   flex: 0 0 24.5526127416rem;
@@ -309,6 +317,14 @@ h5 {
 .container .date {
   font-size: 1.22226199rem;
   margin-bottom: 0.3937007874rem;
+}
+.container .button-1 {
+  background-color: #dc3545;
+  padding: 1.0737294202rem;
+  font-size: 1.4316392269rem;
+  border-radius: 0.5368647101rem;
+  color: #fff;
+  display: block;
 }
 
 @media (max-width: 1900px) {

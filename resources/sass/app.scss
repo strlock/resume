@@ -90,10 +90,18 @@ h5 {
         height: pxrem($topHeight);
         background-color: #eceded;
         #top-left {
-            padding-top: pxrem(302px);
+            padding-top: pxrem(302px - 61.7px - 140px);
             padding-bottom: 0;
             position: relative;
             margin-left: pxrem(205px);
+            .button-container {
+                display: flex;
+                justify-content: center;
+                width: 70%;
+                .button-1 {
+                    margin-bottom: pxrem(100px);
+                }
+            }
         }
         #top-right {
             flex: 0 0 pxrem(686px);
@@ -339,6 +347,15 @@ h5 {
     .date {
         font-size: pxrem(34.15px);
         margin-bottom: pxrem(11px);
+    }
+
+    .button-1 {
+        background-color: #dc3545;
+        padding: pxrem(30px);
+        font-size: pxrem(40px);
+        border-radius: pxrem(15px);
+        color: #fff;
+        display: block;
     }
 }
 

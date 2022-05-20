@@ -17,11 +17,30 @@
         </style>
 
         <link rel="stylesheet" href="<?php echo e(asset('css/app.css')); ?>" type="text/css" />
+        <script type="text/javascript" src="<?php echo e(asset('js/app.js')); ?>"></script>
+        <script type="text/javascript" src="<?php echo e(asset('js/jspdf.min.js')); ?>"></script>
+        <script type="text/javascript" src="<?php echo e(asset('js/html2canvas.min.js')); ?>"></script>
+        <script type="text/javascript">
+            function downloadPDF(){
+                let bc = document.getElementById('download-button-container');
+                bc.style = 'visibility: hidden';
+                html2canvas(document.getElementById('container')).then(canvas => {
+                    let doc = new jsPDF();
+                    doc.addImage(canvas, 'JPEG', 0, 0, 210, 260);
+                    doc.output('dataurlnewwindow', {filename: 'resume.pdf'});
+                    bc.style = '';
+                });
+                return false;
+            }
+        </script>
     </head>
     <body class="antialiased">
-        <div class="container">
+        <div class="container" id="container">
             <div id="top">
                 <div id="top-left">
+                    <div class="button-container" id="download-button-container">
+                        <a href="#" class="button-1" onclick="return downloadPDF()">Download</a>
+                    </div>
                     <div id="avatar">
                         <img src="<?php echo e(asset('/images/me.jpg')); ?>" alt="" />
                     </div>
