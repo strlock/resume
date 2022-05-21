@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,7 +17,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::redirect('/', '/en');
 
-Route::get('/{language}', function (Request $request) {
-    var_dump($request->input('language'));exit;
+Route::get('/en', function (Request $request) {
+    App::setLocale('en');
+    return view('welcome');
+});
+Route::get('/ua', function (Request $request) {
+    App::setLocale('ua');
     return view('welcome');
 });
