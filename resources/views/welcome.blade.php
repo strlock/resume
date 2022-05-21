@@ -48,7 +48,7 @@
                         <h1>Ivan Davydenko</h1>
                         <h2>Junior Software Developer</h2>
                     </div>
-                    <div class="job-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts united states tie ullam bina taliquip sicuitin quiatii texts united states tie ullam islis lines.</div>
+                    <div class="job-description">I am a PHP developer with long-term experience with e-commerce on Joomla. There is experience in supporting shops on Shopware and xtCommerce. I also worked as Laravel Backend developer.</div>
                 </div>
                 <div id="top-right">
                     PHONE :<br/>
