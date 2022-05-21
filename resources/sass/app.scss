@@ -125,7 +125,7 @@ h6 {
             line-height: pxrem(32.6px);
         }
         .job-titles {
-            margin-bottom: pxrem(72px);
+            margin-bottom: pxrem(40px);
             padding-left: pxrem(116px);
             position: relative;
             &:before {
@@ -150,7 +150,6 @@ h6 {
             }
         }
         .job-description {
-            padding-left: pxrem(32px);
             width: 75%;
         }
         #avatar {
@@ -395,7 +394,6 @@ h6 {
     .container {
         #top {
             #top-left {
-                padding-top: pxrem(150px);
                 .job-titles {
                     padding-left: 0;
                     &:before, &:after {
@@ -450,6 +448,9 @@ h6 {
                     margin-bottom: pxrem(40px);
                     width: auto;
                     padding: 0 pxrem(20px);
+                }
+                #download-button-container {
+                    display: none;
                 }
             }
             #top-right{

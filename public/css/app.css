@@ -116,7 +116,7 @@ h6 {
   line-height: 1.1667859699rem;
 }
 .container #top .job-titles {
-  margin-bottom: 2.5769506084rem;
+  margin-bottom: 1.4316392269rem;
   padding-left: 4.1517537581rem;
   position: relative;
 }
@@ -141,7 +141,6 @@ h6 {
   top: 1.4316392269rem;
 }
 .container #top .job-description {
-  padding-left: 1.1453113815rem;
   width: 75%;
 }
 .container #top #avatar {
@@ -359,9 +358,6 @@ h6 {
   }
 }
 @media (max-width: 1800px) {
-  .container #top #top-left {
-    padding-top: 5.3686471009rem;
-  }
   .container #top #top-left .job-titles {
     padding-left: 0;
   }
@@ -404,6 +400,9 @@ h6 {
     margin-bottom: 1.4316392269rem;
     width: auto;
     padding: 0 0.7158196135rem;
+  }
+  .container #top #top-left #download-button-container {
+    display: none;
   }
   .container #top #top-right {
     flex: auto;
