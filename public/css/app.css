@@ -1,11 +1,11 @@
 html {
   font-family: "PT Sans", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.22226199rem;
 }
 
 body {
-  min-width: 12.1689334288rem;
+  min-width: 340px;
 }
 
 ul {
@@ -99,7 +99,6 @@ h6 {
 }
 .container #top #top-left .button-container .button-1 {
   margin-bottom: 3.5790980673rem;
-  visibility: hidden;
 }
 .container #top #top-left h6 {
   margin-top: 0.7158196135rem;
@@ -160,7 +159,6 @@ h6 {
 .container #top #avatar img {
   max-width: 100%;
   max-height: 100%;
-  transform: rotate(-15deg);
 }
 .container #top h2 {
   margin: 0.3937007874rem 0 0 0.1789549034rem;
@@ -172,7 +170,6 @@ h6 {
 }
 .container #middle #middle-left, .container #middle #middle-right {
   padding-top: 2.4337866858rem;
-  padding-bottom: 2.6843235505rem;
 }
 .container #middle #middle-left {
   margin-left: 8.4824624195rem;
@@ -354,7 +351,7 @@ h6 {
 
 @media (max-width: 1900px) {
   html {
-    font-size: calc(16px - (1900px - 100vw) * -0.0012820513);
+    font-size: calc(14px - (1900px - 100vw) * -0.0025641026);
   }
 }
 @media (max-width: 1800px) {

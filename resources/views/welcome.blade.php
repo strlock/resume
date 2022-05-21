@@ -39,7 +39,7 @@
             <div id="top">
                 <div id="top-left">
                     <div class="button-container" id="download-button-container">
-                        <a href="#" class="button-1" onclick="return downloadPDF()">Download</a>
+                        <a href="{{ asset('/pdf/Ivan Davydenko.pdf') }}" class="button-1">Download</a>
                     </div>
                     <div id="avatar">
                         <img src="{{ asset('/images/me.jpg') }}" alt="" />

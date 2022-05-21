@@ -1,5 +1,5 @@
 $baseFontSize: 27.94px;
-$scale: 16px/$baseFontSize;
+$scale: 14px/$baseFontSize;
 $baseMinFontSize: 18px;
 $templateWidth: 1900px;
 $templateMinWidth: 340px;
@@ -106,7 +106,6 @@ h6 {
                 width: 70%;
                 .button-1 {
                     margin-bottom: pxrem(100px);
-                    visibility: hidden;
                 }
             }
             h6 {
@@ -168,7 +167,6 @@ h6 {
             img {
                 max-width: 100%;
                 max-height: 100%;
-                transform: rotate(-15deg);
             }
         }
         h2 {
@@ -182,7 +180,6 @@ h6 {
         justify-content: space-between;
         #middle-left, #middle-right {
             padding-top: pxrem(68px);
-            padding-bottom: pxrem(75px);
         }
         #middle-left {
             margin-left: pxrem(237px);

@@ -39,7 +39,7 @@
             <div id="top">
                 <div id="top-left">
                     <div class="button-container" id="download-button-container">
-                        <a href="#" class="button-1" onclick="return downloadPDF()">Download</a>
+                        <a href="<?php echo e(asset('/pdf/Ivan Davydenko.pdf')); ?>" class="button-1">Download</a>
                     </div>
                     <div id="avatar">
                         <img src="<?php echo e(asset('/images/me.jpg')); ?>" alt="" />
