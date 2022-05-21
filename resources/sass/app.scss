@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    min-width: pxrem($templateMinWidth);
+    min-width: $templateMinWidth;
 }
 
 ul {
