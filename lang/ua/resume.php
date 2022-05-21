@@ -5,7 +5,7 @@ return [
     'download' => 'Завантажити',
     'position' => 'Junior Software Developer',
     'work' => 'Працюю в офісі чи віддалено',
-    'description' => 'Я PHP розробник з тривалим досвідом з e-commerce на Joomla. Також є досвід підтримки магазинів на Shopware і xtCommerce. Я також працював як Laravel Backend developer.',
+    'description' => 'Я PHP розробник з тривалим досвідом з e-commerce на Joomla. Також є досвід підтримки магазинів на Shopware і xtCommerce. Я також працював як Laravel Backend developer. Зараз я розробляю свій хоббі-проект, пов\'язаний з криптовалютою.',
     'education' => 'Освіта',
     'educationDegree' => 'Магістр',
     'educationPlace' => 'Чернівецький Національний Університет ім. Ю. Федьковича',

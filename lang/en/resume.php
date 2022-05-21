@@ -5,7 +5,7 @@ return [
     'download' => 'Download',
     'position' => 'Junior Software Developer',
     'work' => 'Office work or remote',
-    'description' => 'I am a PHP developer with long-term experience with e-commerce on Joomla. There is experience in supporting shops on Shopware and xtCommerce. I also worked as Laravel Backend developer.',
+    'description' => 'I am a PHP developer with long-term experience with e-commerce on Joomla. There is experience in supporting shops on Shopware and xtCommerce. I also worked as Laravel Backend developer. I am now developing my hobby project related to cryptocurrency.',
     'education' => 'Education',
     'educationDegree' => 'Master\'s degree',
     'educationPlace' => 'Chernivci National \'Juriy Fedkovyc\' University',
