@@ -57,6 +57,7 @@
                         <li><span><i class="fa-brands fa-viber"></i></span> <a href="viber://add?number=+380997363205">+380997363205</a></li>
                         <li><span><i class="fa-brands fa-telegram"></i></span> <a href="https://t.me/+380997363205">+380997363205</a></li>
                         <li><span><i class="fa-brands fa-skype"></i></span> <a href="skype:pestepan2?call">pestepan2</a></li>
+                        <li><span><i class="fa-brands fa-facebook"></i></span> <a href="https://www.facebook.com/i1.strlock" target="blank">i1.strlock</a></li>
                         <li><span><i class="fa-solid fa-envelope"></i></span> <a href="mailto:strlock@gmail.com">strlock@gmail.com</a></li>
                         <li><span><i class="fa-brands fa-linkedin"></i></span> <a href="https://www.linkedin.com/in/ivan-davydenko-121844237/" target="blank">LinkedIn</a></li>
                         <li><span><i class="fa-brands fa-github"></i></span> <a href="https://github.com/strlock/" target="blank">strlock</a></li>
