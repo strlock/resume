@@ -8,6 +8,10 @@ body {
   min-width: 340px;
 }
 
+a:hover {
+  color: #888;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -78,6 +82,7 @@ h6 {
 .container {
   max-width: 68.0028632785rem;
   margin: 0 auto;
+  position: relative;
 }
 .container #top {
   display: flex;
@@ -90,7 +95,7 @@ h6 {
   padding-top: 3.8654259127rem;
   padding-bottom: 0;
   position: relative;
-  margin-left: 7.3371510379rem;
+  margin-left: 8.4108804581rem;
 }
 .container #top #top-left .button-container {
   display: flex;
@@ -347,6 +352,19 @@ h6 {
   min-width: 1.4316392269rem;
   color: #f5b63a;
   text-align: center;
+}
+
+#languages {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.0737294202rem;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+#languages li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.1789549034rem;
 }
 
 @media (max-width: 1900px) {

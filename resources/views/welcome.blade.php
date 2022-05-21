@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Ivan Davydenko</title>
+        <title>{{ __('resume.myname') }}</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,39 +17,25 @@
         </style>
         <link rel="stylesheet" href="{{ asset('css/app.css') }}" type="text/css" />
         <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('js/jspdf.min.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('js/html2canvas.min.js') }}"></script>
-        <script type="text/javascript">
-            function downloadPDF(){
-                let bc = document.getElementById('download-button-container');
-                bc.style = 'visibility: hidden';
-                html2canvas(document.getElementById('container')).then(canvas => {
-                    let doc = new jsPDF();
-                    doc.addImage(canvas, 'JPEG', 0, 0, 210, 260);
-                    doc.output('dataurlnewwindow', {filename: 'resume.pdf'});
-                    bc.style = '';
-                });
-                return false;
-            }
-        </script>
         <script src="https://kit.fontawesome.com/8748648954.js" crossorigin="anonymous"></script>
     </head>
     <body class="antialiased">
         <div class="container" id="container">
+            <ul id="languages"><li><a href="/ua">UA</a></li><li><a href="/en">EN</a></li></ul>
             <div id="top">
                 <div id="top-left">
                     <div class="button-container" id="download-button-container">
-                        <a href="{{ asset('/pdf/Ivan Davydenko.pdf') }}" class="button-1">Download</a>
+                        <a href="{{ asset('/pdf/Ivan Davydenko.pdf') }}" class="button-1">{{ __('resume.download') }}</a>
                     </div>
                     <div id="avatar">
                         <img src="{{ asset('/images/me.jpg') }}" alt="" />
                     </div>
                     <div class="job-titles">
-                        <h1>Ivan Davydenko</h1>
-                        <h2>Junior Software Developer</h2>
-                        <h6>Office work or remote</h6>
+                        <h1>{{ __('resume.myname') }}</h1>
+                        <h2>{{ __('resume.position') }}</h2>
+                        <h6>{{ __('resume.work') }}</h6>
                     </div>
-                    <div class="job-description">I am a PHP developer with long-term experience with e-commerce on Joomla. There is experience in supporting shops on Shopware and xtCommerce. I also worked as Laravel Backend developer.</div>
+                    <div class="job-description">{{ __('resume.description') }}</div>
                 </div>
                 <div id="top-right">
                     <ul id="contacts">
@@ -68,11 +54,11 @@
                 <div id="middle-left">
                     <div class="block education-block">
                         <div class="block-inner">
-                            <h3>Education</h3>
+                            <h3>{{ __('resume.education') }}</h3>
                             <div class="date">2006-2011</div>
-                            <h4>Master's degree</h4>
-                            <h5>Chernivci National 'Juriy Fedkovyc' University</h5>
-                            <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
+                            <h4>{{ __('resume.educationDegree') }}</h4>
+                            <h5>{{ __('resume.educationPlace') }}</h5>
+                            <div class="block-description">{{ __('resume.educationDescription') }}</div>
                         </div>
                     </div>
                     {{--<div class="block education-block-1">
@@ -85,19 +71,19 @@
                     </div>--}}
                     <div class="block experience-block">
                         <div class="block-inner">
-                            <h3>Experience</h3>
+                            <h3>{{ __('resume.experience') }}</h3>
                             <div class="date">2022.01-2022.04</div>
-                            <h4>Junior Backend Developer</h4>
-                            <h5>SapientPro</h5>
-                            <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
+                            <h4>{{ __('resume.experienceName1') }}</h4>
+                            <h5>{{ __('resume.experienceCompany1') }}</h5>
+                            <div class="block-description">{{ __('resume.experienceDescription1') }}</div>
                         </div>
                     </div>
                     <div class="block experience-block-1">
                         <div class="block-inner">
                             <div class="date">2011-2022</div>
-                            <h4>Web Developer</h4>
-                            <h5>MaxxMarketing</h5>
-                            <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
+                            <h4>{{ __('resume.experienceName2') }}</h4>
+                            <h5>{{ __('resume.experienceCompany2') }}</h5>
+                            <div class="block-description">{{ __('resume.experienceDescription2') }}</div>
                         </div>
                     </div>
                 </div>
@@ -166,15 +152,15 @@
                             <h3>LANGUAGES</h3>
                             <ul class="list">
                                 <li>
-                                    <span class="title">English<small>Beginner</small></span>
+                                    <span class="title">{{ __('resume.language1') }}<small>{{ __('resume.languageLevel1') }}</small></span>
                                     <span class="stars stars-1"></span>
                                 </li>
                                 <li>
-                                    <span class="title">Ukrainian<small>native language</small></span>
+                                    <span class="title">{{ __('resume.language2') }}<small>{{ __('resume.languageLevel2') }}</small></span>
                                     <span class="stars stars-5"></span>
                                 </li>
                                 <li>
-                                    <span class="title">Russian<small>free</small></span>
+                                    <span class="title">{{ __('resume.language3') }}<small>{{ __('resume.languageLevel3') }}</small></span>
                                     <span class="stars stars-5"></span>
                                 </li>
                             </ul>
