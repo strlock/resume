@@ -21,7 +21,7 @@
     </head>
     <body class="antialiased">
         <div class="container" id="container">
-            <ul id="languages"><li><a href="/ua">UA</a></li><li><a href="/en">EN</a></li></ul>
+            <ul id="languages"><li><a href="/ua">UA</a></li>|<li><a href="/en">EN</a></li></ul>
             <div id="top">
                 <div id="top-left">
                     <div class="button-container" id="download-button-container">
