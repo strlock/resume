@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Resume</title>
+        <title>Ivan Davydenko</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,6 +59,7 @@
                         <li><span><i class="fa-brands fa-skype"></i></span> <a href="skype:pestepan2?call">pestepan2</a></li>
                         <li><span><i class="fa-solid fa-envelope"></i></span> <a href="mailto:strlock@gmail.com">strlock@gmail.com</a></li>
                         <li><span><i class="fa-brands fa-linkedin"></i></span> <a href="https://www.linkedin.com/in/ivan-davydenko-121844237/" target="blank">LinkedIn</a></li>
+                        <li><span><i class="fa-brands fa-github"></i></span> <a href="https://github.com/strlock/" target="blank">strlock</a></li>
                     </ul>
                 </div>
             </div>
