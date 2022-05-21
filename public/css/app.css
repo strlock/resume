@@ -69,6 +69,12 @@ h5 {
   letter-spacing: 0.002em;
 }
 
+h6 {
+  font-size: 1.0737294202rem;
+  font-weight: normal;
+  margin: 0;
+}
+
 .container {
   max-width: 68.0028632785rem;
   margin: 0 auto;
@@ -81,7 +87,7 @@ h5 {
   background-color: #eceded;
 }
 .container #top #top-left {
-  padding-top: 3.5898353615rem;
+  padding-top: 3.8654259127rem;
   padding-bottom: 0;
   position: relative;
   margin-left: 7.3371510379rem;
@@ -95,6 +101,10 @@ h5 {
   margin-bottom: 3.5790980673rem;
   visibility: hidden;
 }
+.container #top #top-left h6 {
+  margin-top: 0.7158196135rem;
+  margin-left: 0.0715819613rem;
+}
 .container #top #top-right {
   flex: 0 0 24.5526127416rem;
   background: url("/images/image1.png") no-repeat center center #424243;
@@ -106,7 +116,7 @@ h5 {
   line-height: 1.1667859699rem;
 }
 .container #top .job-titles {
-  margin-bottom: 4.5096635648rem;
+  margin-bottom: 2.5769506084rem;
   padding-left: 4.1517537581rem;
   position: relative;
 }
@@ -328,6 +338,21 @@ h5 {
   display: block;
 }
 
+#contacts {
+  line-height: 1.4316392269rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #000;
+  padding: 0.7158196135rem;
+  border-radius: 0.3579098067rem;
+  margin-right: 1.4316392269rem;
+}
+#contacts span {
+  display: inline-block;
+  min-width: 1.4316392269rem;
+  color: #f5b63a;
+  text-align: center;
+}
+
 @media (max-width: 1900px) {
   html {
     font-size: calc(16px - (1900px - 100vw) * -0.0012820513);
@@ -349,13 +374,13 @@ h5 {
     margin-left: 5.3686471009rem;
   }
   .container #top #top-right {
-    flex-basis: 20.7587687903rem;
+    flex-basis: 22.1904080172rem;
   }
   .container #middle #middle-left {
     margin-left: 6.4423765211rem;
   }
   .container #middle #middle-right {
-    flex-basis: 20.7587687903rem;
+    flex-basis: 22.1904080172rem;
     padding-right: 1.4316392269rem;
   }
   .container #middle .block .title {

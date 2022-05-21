@@ -80,6 +80,12 @@ h5 {
     letter-spacing: 0.002em;
 }
 
+h6 {
+    font-size: pxrem(30px);
+    font-weight: normal;
+    margin: 0;
+}
+
 .container{
     max-width: pxrem($templateWidth);
     margin: 0 auto;
@@ -90,7 +96,7 @@ h5 {
         height: pxrem($topHeight);
         background-color: #eceded;
         #top-left {
-            padding-top: pxrem(302px - 61.7px - 140px);
+            padding-top: pxrem(108px);
             padding-bottom: 0;
             position: relative;
             margin-left: pxrem(205px);
@@ -102,6 +108,10 @@ h5 {
                     margin-bottom: pxrem(100px);
                     visibility: hidden;
                 }
+            }
+            h6 {
+                margin-top: pxrem(20px);
+                margin-left: pxrem(2px);
             }
         }
         #top-right {
@@ -115,7 +125,7 @@ h5 {
             line-height: pxrem(32.6px);
         }
         .job-titles {
-            margin-bottom: pxrem(126px);
+            margin-bottom: pxrem(72px);
             padding-left: pxrem(116px);
             position: relative;
             &:before {
@@ -360,6 +370,21 @@ h5 {
     }
 }
 
+#contacts {
+    line-height: pxrem(40px);
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000;
+    padding: pxrem(20px);
+    border-radius: pxrem(10px);
+    margin-right: pxrem(40px);
+    span {
+        display: inline-block;
+        min-width: pxrem(40px);
+        color: #f5b63a;
+        text-align: center;
+    }
+}
+
 @media(max-width: 1900px) {
     html {
         font-size: calc($baseFontSize*$scale - ($templateWidth - 100vw)*(($baseFontSize*$scale - $baseMinFontSize)/($templateWidth - $templateMinWidth)) );
@@ -389,7 +414,7 @@ h5 {
                 margin-left: pxrem(150px);
             }
             #top-right {
-                flex-basis: pxrem(580px);
+                flex-basis: pxrem(620px);
             }
         }
         #middle {
@@ -397,7 +422,7 @@ h5 {
                 margin-left: pxrem(180px);
             }
             #middle-right {
-                flex-basis: pxrem(580px);
+                flex-basis: pxrem(620px);
                 padding-right: pxrem(40px);
             }
             .block{
