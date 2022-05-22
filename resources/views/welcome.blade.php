@@ -121,6 +121,10 @@
                                     <span class="stars stars-4"></span>
                                 </li>
                                 <li>
+                                    <span class="title">Redis</span>
+                                    <span class="stars stars-3"></span>
+                                </li>
+                                <li>
                                     <span class="title">jQuery</span>
                                     <span class="stars stars-5"></span>
                                 </li>
