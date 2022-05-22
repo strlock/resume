@@ -102,22 +102,30 @@ h6 {
         align-items: flex-start;
         height: pxrem($topHeight);
         background-color: #eceded;
+        position: relative;
         #top-left {
-            padding-top: pxrem(108px);
+            padding-top: pxrem(230px);
             padding-bottom: 0;
-            position: relative;
             margin-left: pxrem(235px);
-            .button-container {
-                display: flex;
-                justify-content: center;
-                width: 70%;
-                .button-1 {
-                    margin-bottom: pxrem(100px);
-                }
-            }
+            position: relative;
             h6 {
                 margin-top: pxrem(20px);
                 margin-left: pxrem(2px);
+            }
+        }
+        .button-container {
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            .button-1 {
+                display: block;
+                border-bottom-left-radius: 0;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                font-size: pxrem(26px);
+                height: pxrem(50px);
+                padding: pxrem(5px) pxrem(20px);
             }
         }
         #top-right {
@@ -400,6 +408,11 @@ h6 {
         vertical-align: middle;
         padding: pxrem(5px);
     }
+}
+
+.dot-list {
+    list-style-type: circle;
+    padding-left: pxrem(22px);
 }
 
 @media(max-width: 1900px) {

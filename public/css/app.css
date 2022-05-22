@@ -90,24 +90,32 @@ h6 {
   align-items: flex-start;
   height: 26.4495347173rem;
   background-color: #eceded;
+  position: relative;
 }
 .container #top #top-left {
-  padding-top: 3.8654259127rem;
+  padding-top: 8.2319255548rem;
   padding-bottom: 0;
-  position: relative;
   margin-left: 8.4108804581rem;
-}
-.container #top #top-left .button-container {
-  display: flex;
-  justify-content: center;
-  width: 70%;
-}
-.container #top #top-left .button-container .button-1 {
-  margin-bottom: 3.5790980673rem;
+  position: relative;
 }
 .container #top #top-left h6 {
   margin-top: 0.7158196135rem;
   margin-left: 0.0715819613rem;
+}
+.container #top .button-container {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.container #top .button-container .button-1 {
+  display: block;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  font-size: 0.9305654975rem;
+  height: 1.7895490336rem;
+  padding: 0.1789549034rem 0.7158196135rem;
 }
 .container #top #top-right {
   flex: 0 0 24.5526127416rem;
@@ -366,6 +374,11 @@ h6 {
   display: inline-block;
   vertical-align: middle;
   padding: 0.1789549034rem;
+}
+
+.dot-list {
+  list-style-type: circle;
+  padding-left: 0.7874015748rem;
 }
 
 @media (max-width: 1900px) {

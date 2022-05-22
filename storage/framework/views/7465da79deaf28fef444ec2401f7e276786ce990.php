@@ -23,10 +23,10 @@
         <div class="container" id="container">
             <ul id="languages"><li><a href="/ua">UA</a></li>|<li><a href="/en">EN</a></li></ul>
             <div id="top">
+                <div class="button-container">
+                    <a href="<?php echo e(asset('/pdf/Ivan Davydenko.pdf')); ?>" class="button-1"><i class="fa-solid fa-download"></i></a>
+                </div>
                 <div id="top-left">
-                    <div class="button-container" id="download-button-container">
-                        <a href="<?php echo e(asset('/pdf/Ivan Davydenko.pdf')); ?>" class="button-1"><?php echo e(__('resume.download')); ?></a>
-                    </div>
                     <div id="avatar">
                         <img src="<?php echo e(asset('/images/me.jpg')); ?>" alt="" />
                     </div>
@@ -68,7 +68,7 @@
                             <div class="date">2022.01-2022.04</div>
                             <h4><?php echo e(__('resume.experienceName1')); ?></h4>
                             <h5><?php echo e(__('resume.experienceCompany1')); ?></h5>
-                            <div class="block-description"><?php echo e(__('resume.experienceDescription1')); ?></div>
+                            <div class="block-description"><?php echo __('resume.experienceDescription1'); ?></div>
                         </div>
                     </div>
                     <div class="block experience-block-1">
@@ -76,7 +76,7 @@
                             <div class="date">2011-2022</div>
                             <h4><?php echo e(__('resume.experienceName2')); ?></h4>
                             <h5><?php echo e(__('resume.experienceCompany2')); ?></h5>
-                            <div class="block-description"><?php echo e(__('resume.experienceDescription2')); ?></div>
+                            <div class="block-description"><?php echo __('resume.experienceDescription2'); ?></div>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                     
                     <div class="block skills-block">
                         <div class="block-inner">
-                            <h3>SKILLS</h3>
+                            <h3><?php echo e(__('resume.skills')); ?></h3>
                             <ul class="list">
                                 <li>
                                     <span class="title">PHP</span>
@@ -135,7 +135,7 @@
                     </div>
                     <div class="block languages-block">
                         <div class="block-inner">
-                            <h3>LANGUAGES</h3>
+                            <h3><?php echo e(__('resume.languages')); ?></h3>
                             <ul class="list">
                                 <li>
                                     <span class="title"><?php echo e(__('resume.language1')); ?><small><?php echo e(__('resume.languageLevel1')); ?></small></span>
