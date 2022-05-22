@@ -129,7 +129,7 @@
                                     <span class="stars stars-4"></span>
                                 </li>
                                 <li>
-                                    <span class="title">React</span>
+                                    <span class="title">React.js</span>
                                     <span class="stars stars-2"></span>
                                 </li>
                                 <li>
