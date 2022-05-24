@@ -42,7 +42,7 @@
                         <li><span><i class="fa-solid fa-phone"></i></span> <a href="tel:+380997363205">+380997363205</a></li>
                         <li><span><i class="fa-brands fa-viber"></i></span> <a href="viber://add?number=+380997363205">+380997363205</a></li>
                         <li><span><i class="fa-brands fa-telegram"></i></span> <a href="https://t.me/+380997363205">+380997363205</a></li>
-                        <li><span><i class="fa-brands fa-skype"></i></span> <a href="skype:pestepan2?call">pestepan2</a></li>
+                        <li><span><i class="fa-brands fa-skype"></i></span> <a href="skype:strlock?call">strlock</a></li>
                         <li><span><i class="fa-brands fa-facebook"></i></span> <a href="https://www.facebook.com/i1.strlock" target="blank">i1.strlock</a></li>
                         <li><span><i class="fa-solid fa-envelope"></i></span> <a href="mailto:strlock@gmail.com">strlock@gmail.com</a></li>
                         <li><span><i class="fa-brands fa-linkedin"></i></span> <a href="https://www.linkedin.com/in/ivan-davydenko-121844237/" target="blank">LinkedIn</a></li>
@@ -55,7 +55,7 @@
                     <div class="block education-block">
                         <div class="block-inner">
                             <h3><?php echo e(__('resume.education')); ?></h3>
-                            <div class="date">2006-2011</div>
+                            <div class="date">2006-2010</div>
                             <h4><?php echo e(__('resume.educationDegree')); ?></h4>
                             <h5><?php echo e(__('resume.educationPlace')); ?></h5>
                             <div class="block-description"><?php echo e(__('resume.educationDescription')); ?></div>
@@ -103,11 +103,23 @@
                                     <span class="stars stars-4"></span>
                                 </li>
                                 <li>
+                                    <span class="title">Joomla</span>
+                                    <span class="stars stars-4"></span>
+                                </li>
+                                <li>
+                                    <span class="title">SASS/SCSS</span>
+                                    <span class="stars stars-3"></span>
+                                </li>
+                                <li>
                                     <span class="title">MySQL</span>
                                     <span class="stars stars-4"></span>
                                 </li>
                                 <li>
-                                    <span class="title">jQuery</span>
+                                    <span class="title">Redis</span>
+                                    <span class="stars stars-3"></span>
+                                </li>
+                                <li>
+                                    <span class="title">jQuery.js</span>
                                     <span class="stars stars-5"></span>
                                 </li>
                                 <li>
@@ -115,7 +127,7 @@
                                     <span class="stars stars-4"></span>
                                 </li>
                                 <li>
-                                    <span class="title">React</span>
+                                    <span class="title">React.js</span>
                                     <span class="stars stars-2"></span>
                                 </li>
                                 <li>
@@ -130,6 +142,22 @@
                                     <span class="title">GIT</span>
                                     <span class="stars stars-4"></span>
                                 </li>
+                                <li>
+                                    <span class="title">JoomShopping</span>
+                                    <span class="stars stars-5"></span>
+                                </li>
+                                <li>
+                                    <span class="title">Magento</span>
+                                    <span class="stars stars-1"></span>
+                                </li>
+                                <li>
+                                    <span class="title">Shopware</span>
+                                    <span class="stars stars-3"></span>
+                                </li>
+                                <li>
+                                    <span class="title">xtCommerce</span>
+                                    <span class="stars stars-3"></span>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -139,7 +167,7 @@
                             <ul class="list">
                                 <li>
                                     <span class="title"><?php echo e(__('resume.language1')); ?><small><?php echo e(__('resume.languageLevel1')); ?></small></span>
-                                    <span class="stars stars-1"></span>
+                                    <span class="stars stars-2"></span>
                                 </li>
                                 <li>
                                     <span class="title"><?php echo e(__('resume.language2')); ?><small><?php echo e(__('resume.languageLevel2')); ?></small></span>
