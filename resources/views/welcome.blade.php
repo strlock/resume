@@ -167,7 +167,7 @@
                                 </li>
                                 <li>
                                     <span class="title">Shopware</span>
-                                    <span class="stars stars-3"></span>
+                                    <span class="stars stars-2"></span>
                                 </li>
                                 <li>
                                     <span class="title">xtCommerce</span>
