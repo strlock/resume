@@ -80,6 +80,7 @@
                     </div>--}}
                     <div class="block experience-block">
                         <div class="block-inner">
+                            <h3>{{ __('resume.experience') }}</h3>
                             <div class="date">2011-2022</div>
                             <h4>{{ __('resume.experienceName2') }}</h4>
                             <h5>{{ __('resume.experienceCompany2') }}</h5>
