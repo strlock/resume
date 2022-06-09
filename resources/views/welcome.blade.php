@@ -69,7 +69,7 @@
                             <div class="block-description">Nislis taliquip is nislis aliqui texts lines consi icuitin quiatii aliquip quiatii texts united states taliquip it’s sicuitin quiatii texts</div>
                         </div>
                     </div>--}}
-                    <div class="block experience-block">
+                    {{--<div class="block experience-block">
                         <div class="block-inner">
                             <h3>{{ __('resume.experience') }}</h3>
                             <div class="date">2022.01-2022.04</div>
@@ -77,8 +77,7 @@
                             <h5>{{ __('resume.experienceCompany1') }}</h5>
                             <div class="block-description">{!! __('resume.experienceDescription1') !!}</div>
                         </div>
-                    </div>
-                    {{--
+                    </div>--}}
                     <div class="block experience-block-1">
                         <div class="block-inner">
                             <div class="date">2011-2022</div>
@@ -87,7 +86,6 @@
                             <div class="block-description">{!! __('resume.experienceDescription2') !!}</div>
                         </div>
                     </div>
-                    --}}
                 </div>
                 <div id="middle-right">
                     {{--<div class="block awards-block">
