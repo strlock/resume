@@ -78,6 +78,7 @@
                             <div class="block-description">{!! __('resume.experienceDescription1') !!}</div>
                         </div>
                     </div>
+                    {{--
                     <div class="block experience-block-1">
                         <div class="block-inner">
                             <div class="date">2011-2022</div>
@@ -86,6 +87,7 @@
                             <div class="block-description">{!! __('resume.experienceDescription2') !!}</div>
                         </div>
                     </div>
+                    --}}
                 </div>
                 <div id="middle-right">
                     {{--<div class="block awards-block">
