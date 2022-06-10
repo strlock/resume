@@ -27,4 +27,12 @@ return [
     'languageLevel3' => 'вільно',
     'skills' => 'Навики',
     'languages' => 'Мови',
+    'portfolio' => 'Портфоліо',
+    'toWebsite' => 'Перегляд сайту',
+    'portfolio-description-0' => 'Каталог вікон та дверей для німецького замовника',
+    'portfolio-description-1' => 'Магазин інструментів для німецького замовника',
+    'portfolio-description-2' => 'Моє резюме і портфоліо',
+    'portfolio-description-3' => 'Каталог аренди корів для німецького замовника',
+    'portfolio-description-4' => 'Сайт візитка для німецького замовника',
+    'portfolio-description-5' => 'Магазин косметики для німецького замовника',
 ];

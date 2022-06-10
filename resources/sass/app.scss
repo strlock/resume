@@ -17,9 +17,14 @@ html {
 
 body {
     min-width: $templateMinWidth;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
 }
 
 a {
+    text-decoration: none;
+    color: #000;
     &:hover {
         color: #888;
     }
@@ -29,6 +34,10 @@ ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+img {
+    max-width: 100%;
 }
 
 h1 {
@@ -92,7 +101,7 @@ h6 {
     margin: 0;
 }
 
-.container{
+.main-container{
     max-width: pxrem($templateWidth);
     margin: 0 auto;
     position: relative;
@@ -233,6 +242,7 @@ h6 {
             }
             &.experience-block {
                 padding-bottom: pxrem(57px);
+                border-bottom: none;
                 h3 {
                     &:before {
                         background-image: url('/images/icon2.png');
@@ -380,6 +390,15 @@ h6 {
         color: #fff;
         display: block;
     }
+
+    .button-2 {
+        @extend .button-1;
+        background-color: #f5b63a;
+        color: #000;
+        font-size: 90%;
+        padding: 0.5rem 1rem;
+        display: inline-block;
+    }
 }
 
 #contacts {
@@ -416,6 +435,17 @@ h6 {
     padding-left: pxrem(22px);
 }
 
+.accordion-item .accordion-button {
+    border: none !important;
+    background: none;
+    color: #000 !important;
+    &:focus {
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+}
+
 @media(max-width: 1900px) {
     html {
         font-size: calc($baseFontSize*$scale - ($templateWidth - 100vw)*(($baseFontSize*$scale - $baseMinFontSize)/($templateWidth - $templateMinWidth)) );
@@ -423,7 +453,7 @@ h6 {
 }
 
 @media(max-width: 1800px) {
-    .container {
+    .main-container {
         #top {
             #top-left {
                 .job-titles {
@@ -438,7 +468,7 @@ h6 {
 }
 
 @media(max-width: 1100px) {
-    .container {
+    .main-container {
         #top {
             #top-left {
                 margin-left: pxrem(150px);
@@ -465,7 +495,7 @@ h6 {
 }
 
 @media(max-width: 900px) {
-    .container {
+    .main-container {
         #top {
             flex-direction: column;
             height: auto;
