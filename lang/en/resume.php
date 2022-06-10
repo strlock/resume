@@ -35,5 +35,6 @@ return [
     'portfolio-description-2' => 'My resume and portfolio',
     'portfolio-description-3' => 'Catalog of cows for German customer',
     'portfolio-description-4' => 'A card website for German customer',
-    'portfolio-description-5' => 'The cosmetics store for a German customer',
+    'portfolio-description-5' => 'A card website for German customer',
+    'portfolio-description-6' => 'The cosmetics store for a German customer',
 ];

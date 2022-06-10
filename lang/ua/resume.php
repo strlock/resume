@@ -34,5 +34,6 @@ return [
     'portfolio-description-2' => 'Моє резюме і портфоліо',
     'portfolio-description-3' => 'Каталог аренди корів для німецького замовника',
     'portfolio-description-4' => 'Сайт візитка для німецького замовника',
-    'portfolio-description-5' => 'Магазин косметики для німецького замовника',
+    'portfolio-description-5' => 'Сайт візитка для німецького замовника',
+    'portfolio-description-6' => 'Магазин косметики для німецького замовника',
 ];
