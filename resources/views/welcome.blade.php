@@ -100,6 +100,7 @@
                                     ['http://resume.ddns.net', 'My resume', '/images/myresume.png'],
                                     ['https://kuhpatenschaft.de', 'ANDECHSER NATUR', '/images/an.png'],
                                     ['https://www.mosquito-repellants.com/', 'Mosquito-Repellants', '/images/mr.png'],
+                                    ['http://wegbereitermenschwiehund.de/', 'Hunde Dolmetscher', '/images/hd.png'],
                                     ['https://www.sk-kosmetik-shop.de/', 'SK-KOSMETIK', '/images/skkosmetik.png'],
                                 ];
                             @endphp
